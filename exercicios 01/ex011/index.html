@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias html</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir essas imagens em varios dispositivos</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="">
+    </picture>
+
+    <h2>Tags usadas picture - img - source:media:tipe</h2>
+
+    <h1>testando Audio</h1>
+    <audio src="midia/mp3.mp3.mp3"  autoplay controls ></audio>
+
+    <p> tags usadas <h2> audio - controls - autoplay</h2></p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/mp3.mp3.mp3" type="audio/mpeg">
+    </audio>
+    <p>baixe o <a href="midia/mp3.mp3.mp3">audio</a></p>
+
+    <h2>tags usadas audio - preload= metadata - autoplay - controls - loop</h2>
+
+    
+
+    
+</body>
+</html>
